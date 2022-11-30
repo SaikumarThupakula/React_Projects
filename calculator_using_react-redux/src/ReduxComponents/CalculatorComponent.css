@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#68EACC 0%,#497BE8 100%);
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(70px,auto);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    display: grid;
+    width: 400px;
+    height:auto;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin:10px 10px;
+    background-color: black;
+    border-radius: 5px;
+   
+
+}
+input[type="text"]{
+    width:300px;
+    height: 80px;
+    margin:20px 0 10px 0;
+    text-align:right;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing:1px;
+    background:#232834;
+    border:none;
+    color:white;
+    border-radius: 5px;
+}
+button{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    background:#232834;
+    color:#ffffff
+}
+#clear{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+#equalsTo{
+    grid-column:3/5;
+    grid-row: 5;
+}
+.unique{
+    background-color:#56cbdb ;
+    color:black;
+}
+h1{
+    text-align: center;
+    color:white;
+}
