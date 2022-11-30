@@ -1,0 +1,93 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  height:700px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  background:url("android_weather_app.webp") ;
+  background-size: cover;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+background-color:rgba(194, 185, 184,0.4) ;
+height: 700px;
+margin:0 490px;
+border-radius: 10px;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 15px 10px;
+  margin:auto auto;
+  display: block;
+  border-radius: 50px;
+  font-size: 20px;
+  border:none;
+  outline: none;
+  caret-color: rebeccapurple;
+}
+button {
+  padding: 16px 30px;
+  background-color:#0d2636;
+  color:white ;
+  font-weight: bold;
+  border: none;
+  margin:15px auto;
+  display: flex;
+  font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+h3 {
+  color:white;
+  text-align: center;
+}
+.dataContainer{
+display:flex;
+flex-direction: column;
+background-color:#0d2636;
+opacity: 0.9;
+margin:10px 10px;
+border-radius: 10px;
+}
+.header,.temp{
+    text-align: center;
+    color: white;
+}
+.dataContainer .city{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.image{
+    margin-left:150px;
+}
+.description{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.min{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px 20px;
+}
+.error{
+  text-align: center;
+  color:red;
+  font-size: 28px;
+  font-weight: bold;
+}
